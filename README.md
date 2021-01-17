@@ -1,8 +1,7 @@
 # glaucusProblem
 Solution for the task assigned for the post of java developer
 
-    Task
-        {
+>    TASK: 
         The task is to consistently increment a number in a database when parallel threads are racing to increment the number.
         Create a table Number in MySQL database with one integer type field.
         Create a RESTful API using Spring MVC architecture that increments this number.
@@ -10,7 +9,7 @@ Solution for the task assigned for the post of java developer
         Now set the initial value of Number to 0.
         After the execution of Jmeter, the value of the number in the database shall be 5000. (Try the same with a bigger number 100000)
         The API should be scalable i.e. if deployed on multiple machines with same database, the result should be consistent.
-        }
+        
         
 
 ## API Documentation
@@ -18,6 +17,10 @@ Visit this link for the API documentation
 https://atikash.github.io/glaucusProblem/javadoc/
 
 ## Steps to test
+
+> DISCLAIMER : To perform performance test on this application with a huge number of concurrent requests make sure the hardware is available.
+To run a test with a huge number of concurrent user you need a high end server or a system.
+
 ###  Step 1
     Download and install MySql.
     
