@@ -14,5 +14,5 @@ import org.springframework.stereotype.Repository;
  */
 
 @Repository
-public interface NumberJpa extends JpaRepository<Number,Long> {
+public interface NumberJpa extends JpaRepository<Number,Integer> {
 }
