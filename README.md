@@ -10,7 +10,7 @@ https://atikash.github.io/glaucusProblem/javadoc/
     Download and install MySql.
     
 ###  Step 2
-    either use the .sql file present inside the 'Extra_Resources' folder or simply run each command present in the file one by one.
+    either use the .sql file present inside the 'Extra_Resources' folder or simply run each command present in the file one by one to setup the database.
     
 ### Step 3
     use 'select * from number' to verify that there is only one entry in the table with id=0 & number=0.
