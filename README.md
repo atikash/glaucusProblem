@@ -40,11 +40,10 @@ https://atikash.github.io/glaucusProblem/javadoc/
     Download and install Jmeter.
     
 ### Step 9
-    start Jmeter by following running jmeter.bat file present inside bin folder of jmeter package
-  
+    start Jmeter  
 ### Step 10
-    use the .jmx file present under the 'Extra_Resources' folder of this project
-    to import the test plan from this .jmx file in jmeter
+    use the .jmx file present under the 'Extra_Resources' folder of this project.
+    To import the test plan from this .jmx file in jmeter
       go to File->open
      and browse to the  location of the .jmx file in your local machine.
      
