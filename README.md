@@ -19,7 +19,7 @@ https://atikash.github.io/glaucusProblem/javadoc/
 ## Steps to test
 
 > DISCLAIMER : To perform performance test on this application with a huge number of concurrent requests make sure the hardware is available.
-To run a test with a huge number of concurrent user you need a high end server or a system.
+To run a test with a huge number of concurrent user you need a high end system.
 
 ###  Step 1
     Download and install MySql.
