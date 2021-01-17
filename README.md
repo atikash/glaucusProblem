@@ -1,6 +1,18 @@
 # glaucusProblem
 Solution for the task assigned for the post of java developer
 
+    Task
+        {
+        The task is to consistently increment a number in a database when parallel threads are racing to increment the number.
+        Create a table Number in MySQL database with one integer type field.
+        Create a RESTful API using Spring MVC architecture that increments this number.
+        Use Jmeter (Do not use postman because it does not send parallel requests) to call this API with 5000 users so that a lot of parallel requests are sent to server to             increment the number.
+        Now set the initial value of Number to 0.
+        After the execution of Jmeter, the value of the number in the database shall be 5000. (Try the same with a bigger number 100000)
+        The API should be scalable i.e. if deployed on multiple machines with same database, the result should be consistent.
+        }
+        
+
 ## API Documentation
 Visit this link for the API documentation
 https://atikash.github.io/glaucusProblem/javadoc/
@@ -40,11 +52,10 @@ https://atikash.github.io/glaucusProblem/javadoc/
     Download and install Jmeter.
     
 ### Step 9
-    start Jmeter by following running jmeter.bat file present inside bin folder of jmeter package
-  
+    start Jmeter  
 ### Step 10
-    use the .jmx file present under the 'Extra_Resources' folder of this project
-    to import the test plan from this .jmx file in jmeter
+    use the .jmx file present under the 'Extra_Resources' folder of this project.
+    To import the test plan from this .jmx file in jmeter
       go to File->open
      and browse to the  location of the .jmx file in your local machine.
      
